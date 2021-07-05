@@ -1,0 +1,141 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #f6f5f5;
+}
+
+li {
+  font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+  font-family: 'Vollkorn', serif;
+}
+
+h2 {
+  font-family: 'Rubik', sans-serif;
+}
+
+/* Heading Section */
+
+#banner {
+  background-color: white;
+  padding: 4% 2% 4% 2%;
+}
+
+.portada-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/PORTADA 1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+}
+
+.portada-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  letter-spacing: 8px;
+  box-shadow: blanchedalmond;
+}
+
+.cover-name {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 500;
+  font-size: 5rem;
+  width: 700px;
+}
+
+.sub-heading {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 2rem;
+}
+
+/* Arte digital */
+
+#description {
+  background-color: #d3e0ea;
+  padding: 2%;
+}
+
+.arte-digital {
+  padding: 1% 10% 1% 10%;
+}
+
+.section-title {
+  text-align: center;
+  color: black;
+  text-decoration-line: underline;
+}
+
+.arte-digital h5 {
+  padding-top: 2%;
+  text-align: justify;
+}
+
+/* Historia Artistica */
+#history {
+  padding: 2%;
+}
+
+.historia-artistica {
+  padding: 1% 10% 1% 10%;
+}
+
+.activity {
+  padding-top: 2%;
+}
+
+.activity li {
+  text-align: justify;
+  font-size: 1.25rem;
+}
+
+.activity a {
+  color: darkred;
+  font-size: 1.30rem;
+}
+
+/* CARACTERÍSTICAS DE LA OBRA */
+#car-obra {
+  background-color: #d3e0ea;
+  padding: 2%;
+}
+
+.obra {
+  padding: 1% 10% 4% 10%;
+}
+
+.obra h5{
+  padding-top: 2%;
+  text-align: justify;
+}
+
+/* Exibit */
+#exibit {
+  padding: 2%;
+}
+
+.pictures-exibit {
+  padding: 1% 4% 1% 4%;
+}
+
+/* Footer */
+#footer {
+  background-color: #d3e0ea;
+  padding: 3% 0 3%;
+  text-align: center;
+}
+
+.footer-icons {
+  color: black;
+  margin: 20px;
+}
+
+.footer-icons:hover {
+  color: darkred;
+}
+
